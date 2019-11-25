@@ -14,7 +14,7 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         PlayerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
-        InvokeRepeating("SpawnObsticle", startDelay, repeatRate);
+        InvokeRepeating("SpawnObject", startDelay, repeatRate);
     }
 
     // Update is called once per frame
